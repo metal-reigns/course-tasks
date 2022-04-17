@@ -10,3 +10,13 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+
+ const myName = 'Anton'
+ const mySecondName = 'K'
+ const myProffession = 'programmer'
+
+ const dataPerson = `Меня зовут ${myName} ${mySecondName} и я ${myProffession}`
+ console.log(dataPerson)
+
+ const personInfo = 'My name is ' + myName + '' + mySecondName + ' and I am ' + myProffession
+ console.log(personInfo)

@@ -7,3 +7,12 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+
+const first = 5
+const second = 10
+
+const mult = first * second
+
+console.log(mult)
+
+

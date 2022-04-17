@@ -7,3 +7,11 @@
  *
  * 3. Создайте многострочный комментарий
  */
+
+//  Comment
+
+const myName = 'Anton' // My Name
+
+/**
+ * Hello, Anton
+ */
