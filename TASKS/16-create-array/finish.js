@@ -6,3 +6,8 @@
  *
  * 3. Выведите в консоль длину массива
  */
+
+const myArray = ['abc', 21, false]
+
+console.log(myArray[0])
+console.log(`Длинна массива равна ${myArray.length}`)
