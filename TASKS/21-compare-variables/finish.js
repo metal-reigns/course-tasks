@@ -20,3 +20,8 @@ const compare2 = +myVariable1 <= +myVariable2
 
 console.log(compare2)
 
+let a = true //1
+let b = false //0
+
+console.log(+a)
+
