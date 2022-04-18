@@ -8,8 +8,11 @@
 'use strict'
 
 function myFunction() {
-  a = 2
-  return a
+  const a = 2
+  console.log(a)
 }
 
-myFunction()
+myFunction() //2
+
+console.log(a) // a is not defined
+// Переменная "а" доступна только внутри функции
