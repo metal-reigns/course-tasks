@@ -6,23 +6,38 @@
  *  - выражение-инструкция (expression statement)
  */
 
-15
+// ? expression statement
+15 
 
-const myObject = {
+// statement
+const myObject = { // expression
   x: 10,
   y: true,
 }
 
-myObject.z = 'abc'
+// expression statement
+myObject.z = 'abc' // expression
 
-delete myObject.x
+delete myObject.x // expression statement
 
-let newVariable
+let newVariable // statement
 
-newVariable = 30 + 5
+// expression statement
+newVariable = 30 + 5 // expression
 
-console.log(newVariable)
-
-if (newVariable > 10) {
-  console.log(`${newVariable} больше 10`)
+// expression statement
+console.log(newVariable) // expresion
+//stateman
+if (newVariable > 10) { 
+// expression
+  console.log(`${newVariable} больше 10`) // expression
 }
+
+/**
+ *  Выражение - это часть кода, которое возвращает определенное значение,
+ * например вызов функции, арифметическая операция, та часть кода, результат которой
+ * мы используем для присваивания новой переменной или же в вызове функций
+ * Инструкция - это часть кода, которое выполняет какое-либо действие, например
+ * цикл, условная инструкция
+ * Выражение-инструкция - это выражение, которое нахожится на отдельной строке кода 
+ */
