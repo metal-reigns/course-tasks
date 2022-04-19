@@ -7,11 +7,11 @@
  * 3. Какова длина конечного массива?
  */
 
-const myArray = [1, 2]
+const cars = [1, 2]
 
 myA[10] = 'abc'
 
-console.log(myArray)
+console.log(cars)
 
-console.log(myArray.length)
+console.log(cars.length)
 
