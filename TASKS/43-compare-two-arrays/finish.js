@@ -11,6 +11,15 @@
  * ВАЖНО: Исходите из того, что массивы содержат элементы примитивных типов
  */
 
+ const areArraysEqual = (firstArray, secondArray) => {
+    if (
+        firstArray.length === secondArray.length &&
+        firstArray.every((element, index) => element === secondArray[index])) {
+            return true
+        }
+        return false
+    }
+
 const a = [1, 2, 3]
 const b = [1, 2, 3]
 
@@ -22,3 +31,10 @@ const d = [1, 2, 3, 4]
 console.log(areArraysEqual(a, b)) // true
 console.log(areArraysEqual(a, c)) // false
 console.log(areArraysEqual(a, d)) // false
+
+/**
+ * const arraySortInfo = (inputArray) => {
+    if (inputArray.some((element) => typeof element != 'number')){
+    return 'Некоторые элементы не являтся числами'
+    }
+ */
