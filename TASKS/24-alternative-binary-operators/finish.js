@@ -18,4 +18,4 @@ a /= 2
 console.log(a) // 8.5
 
 a /= a / 2
-console.log(parseFloat(a)) // 2 wtf?
+console.log(+a) // 2 wtf?
